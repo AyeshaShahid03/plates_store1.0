@@ -1,0 +1,22 @@
+.product-cart h4 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.product-cart button {
+  color: #378dca;
+  background-color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.product-cart-1 {
+  background: linear-gradient(to bottom, #378ecb 0%, #33bce5 100%);
+  border-radius: 10px;
+}
+.cart-product-padding {
+  padding: 20px;
+}

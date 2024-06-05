@@ -1,0 +1,25 @@
+.Reviews-page-heading {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+.reviews-main-container {
+  margin: 50px auto;
+}
+.reviews-main-container h5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+.mb-0 {
+  margin: 20px 0px;
+}
+.review-head {
+  font-family: 'Nunito', sans-serif;
+
+  color: #385f59;
+}
+.reviw-para {
+  font-family: 'Nunito', sans-serif;
+
+  color: #385f59;
+}

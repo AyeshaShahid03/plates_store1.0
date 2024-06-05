@@ -1,0 +1,26 @@
+.shipping-policy-heading {
+  font-family: 'Nunito', sans-serif;
+
+  font-weight: 600;
+  font-size: 32px;
+}
+.shipping-policy-container {
+  margin: 30px auto;
+}
+
+.shipping-policy-container h5 {
+  font-family: 'Nunito', sans-serif;
+
+  color: #385f59;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.shipping-policy-container p {
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+
+  color: #385f59;
+  font-weight: 400;
+  padding-bottom: 20px;
+}

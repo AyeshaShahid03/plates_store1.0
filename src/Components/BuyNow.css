@@ -1,0 +1,228 @@
+.shop-by-size-main-container h1 {
+  text-align: center;
+  width: 100%;
+  color: #385f59;
+  font-size: 40px;
+  font-family: Nunito;
+  font-weight: 800;
+  line-height: 48px;
+}
+.shop-by-size-main-container p {
+  text-align: center;
+  width: 100%;
+  margin: 30px 0px;
+  margin-top: -20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #385f59;
+}
+
+.shop-by-size-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.shop-by-size-container1 {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.shopCard {
+  text-align: center;
+  padding: 20px;
+  width: 22%;
+}
+
+.shopCard h4 {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.shopCard button {
+  color: white;
+  background-color: #d75d39;
+  border: none;
+  padding: 8px 40px;
+  border-radius: 120px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+}
+.shopcard1 img {
+  padding: 12px;
+}
+
+.shopcard1 {
+  height: 290px;
+  background: #385f59;
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 764px) {
+  .shopCard {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+
+  .shop-by-size-container {
+    justify-content: space-evenly;
+  }
+  .shop-by-size-main-container p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .shop-by-size-main-container h1 {
+    font-size: 26px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .shopCard {
+    padding: 10px;
+    width: 45%;
+  }
+}
+@media (min-width: 250px) and (max-width: 325px) {
+  .shopCard {
+    padding: 10px;
+    width: 45%;
+  }
+  .shopcard1 {
+    height: 280px;
+  }
+}
+@media (min-width: 326px) and (max-width: 330px) {
+  .shopCard {
+    padding: 10px;
+    width: 45%;
+  }
+  .shopcard1 {
+    height: 280px;
+  }
+}
+
+.shop-size-container-btn {
+  font-size: 18px;
+  font-weight: 800;
+  background-color: #d75d39;
+  border-radius: 20120px;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+}
+@media (min-width: 200px) and (max-width: 265px) {
+  .shopcard1 {
+    height: 200px;
+  }
+  .shopCard button {
+    font-size: 12px;
+    padding: 3px 8px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .shop-by-size-main-container h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 265px) and (max-width: 300px) {
+  .shopcard1 {
+    height: 220px;
+  }
+  .shopCard button {
+    font-size: 12px;
+    padding: 3px 8px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .shop-by-size-main-container h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 330px) {
+  .shopcard1 {
+    height: 230px;
+  }
+  .shopCard button {
+    font-size: 12px;
+    padding: 3px 20px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .shop-by-size-main-container h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 330px) and (max-width: 400px) {
+  .shopcard1 {
+    height: 270px;
+  }
+  .shopCard button {
+    font-size: 15px;
+    padding: 3px 20px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .shop-by-size-main-container h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 765px) {
+  .shopcard1 {
+    height: 300px;
+  }
+  .shopCard button {
+    font-size: 18px;
+    padding: 6px 15px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .shop-by-size-main-container h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 765px) and (max-width: 1000px) {
+  .shopcard1 {
+    height: 260px;
+  }
+  .shopCard button {
+    font-size: 15px;
+    padding: 6px 18px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .shop-by-size-main-container h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 20px;
+  }
+}

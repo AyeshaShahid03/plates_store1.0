@@ -1,0 +1,105 @@
+.focus-none input:focus {
+  box-shadow: none;
+}
+
+.login-container {
+  margin-bottom: 20px;
+}
+
+.signup-container {
+  margin-bottom: 20px;
+}
+
+.login-main-container {
+  margin: 0px auto;
+}
+
+.login-h {
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 0px;
+  color: #385f59;
+}
+
+.singup-main-container {
+  margin: 0px auto;
+}
+
+.signup-h {
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 0px;
+  color: #385f59;
+}
+
+.login-btn {
+  padding: 5px 50px;
+  background: #d75d39;
+  border-radius: 20120px;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.signup-btn {
+  padding: 5px 50px;
+  background: #d75d39;
+  border-radius: 20120px;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.border-left {
+  border-left: solid 2px gray;
+}
+
+@media only screen and (max-width: 767px) {
+  .login-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .signup-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .border-left {
+    border: none;
+  }
+
+  .singup-main-container {
+    margin: 0px auto;
+    margin-top: 80px;
+  }
+
+  .login-main-container {
+    border-bottom: solid 2px gray;
+    padding-bottom: 80px;
+  }
+  .login-btn {
+    padding: 5px 30%;
+  }
+  .login-h {
+    text-align: center;
+  }
+  .signup-btn {
+    padding: 5px 30%;
+  }
+  .signup-h {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .login-h {
+    font-size: 28px;
+  }
+  .signup-h {
+    font-size: 28px;
+  }
+}

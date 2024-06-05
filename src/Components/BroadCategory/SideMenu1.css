@@ -1,0 +1,211 @@
+.category-head {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 48px;
+
+  font-family: 'Nunito', sans-serif;
+
+  color: #385f59;
+}
+.category-nav_active {
+  background-image: url(../../assets/images/Rectangle\ 7.png);
+  background-repeat: no-repeat;
+  padding: 0em 1.5em;
+}
+.category-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: #385f59;
+}
+.friendly-head {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 48px;
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+}
+.friendly-para {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: 'Nunito', sans-serif;
+
+  color: #385f59;
+}
+
+.categoryCard {
+  text-align: center;
+  padding: 20px;
+  width: 32%;
+  margin-bottom: 1.5em;
+}
+
+.categoryCard h4 {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.categoryCard p {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  padding: 0.5em 0em;
+}
+
+.categoryCard button {
+  color: white;
+  background-color: #d75d39;
+  border: none;
+  padding: 8px 40px;
+  border-radius: 120px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+.categoryCard1 img {
+  padding: 12px;
+}
+.categoryCard1 {
+  height: 380px;
+  background-color: #385f59;
+  border-radius: 10px;
+}
+.page-num {
+  background: #d75d39;
+  border-radius: 120px;
+  padding: 3px 28px;
+  color: white;
+}
+.page-num1 {
+  border: 3px solid #d75d39;
+  border-radius: 120px;
+  padding: 0px 25px;
+  color: #d75d39;
+}
+
+.category-item {
+  padding: 0em 6em 3em 3em;
+}
+.category-item h1 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 56px;
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+}
+.category-item p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+}
+
+@media only screen and (max-width: 764px) {
+  .categoryCard {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .category-item {
+    text-align: center;
+    padding: 0em 2em 3em 2em;
+  }
+  .category-item h1 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 48px;
+    color: #385f59;
+    font-family: 'Nunito', sans-serif;
+  }
+  .category-item p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #385f59;
+    font-family: 'Nunito', sans-serif;
+  }
+  .friendly-para {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .friendly-head {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 48px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .categoryCard {
+    padding: 10px;
+    width: 45%;
+  }
+  .categoryCard1 {
+    height: 350px;
+  }
+  .categoryCard button {
+    padding: 0.7em 2.3em;
+  }
+}
+@media (min-width: 250px) and (max-width: 325px) {
+  .categoryCard {
+    padding: 10px;
+    width: 45%;
+  }
+  .categoryCard1 {
+    height: 320px;
+  }
+  .categoryCard button {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.2em 0.4em;
+  }
+}
+@media (min-width: 325px) and (max-width: 370px) {
+  .categoryCard {
+    padding: 10px;
+    width: 45%;
+  }
+  .categoryCard1 {
+    height: 320px;
+  }
+  .categoryCard button {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.2em 0.4em;
+  }
+}
+@media (min-width: 370px) and (max-width: 400px) {
+  .categoryCard {
+    padding: 10px;
+    width: 45%;
+  }
+  .categoryCard1 {
+    height: 350px;
+  }
+  .categoryCard button {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.2em 1em;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 1000px) {
+  .categoryCard1 {
+    height: 380px;
+  }
+  .categoryCard button {
+    font-size: 15px;
+    padding: 6px 18px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+}

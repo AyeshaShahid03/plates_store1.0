@@ -1,0 +1,60 @@
+.bill-btn {
+  background: #d75d39;
+  border-radius: 120px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.4em 6em;
+  border: none;
+  margin-left: -13px;
+}
+.bill-btn1 {
+  background: #d75d39;
+  border-radius: 120px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0.4em 3.5em;
+  border: none;
+  margin-left: -13px;
+}
+.form-border {
+  background: #e1e2da;
+  border: 1px solid rgba(56, 95, 89, 0.35);
+  border-radius: 5px;
+}
+.add-form-border {
+  background: #e1e2da;
+  border: 1px solid rgba(56, 95, 89, 0.35);
+  border-radius: 5px;
+}
+@media (min-width: 950px) {
+  .form-border {
+    width: 40em;
+  }
+  .add-form-border {
+    width: 40em;
+  }
+}
+@media screen and (max-width: 765px) {
+  .add-form-border {
+    display: none;
+  }
+  .form-border {
+    background: none;
+    border: none;
+    border-radius: 0;
+  }
+  .input-form-small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #5e5e5e;
+    background: #e1e2da;
+    border: 1px solid rgba(56, 95, 89, 0.35);
+    border-radius: 10px;
+    padding: 0.8em 0em 0.8em 0.7em;
+  }
+}

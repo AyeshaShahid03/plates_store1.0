@@ -1,0 +1,46 @@
+.app-main {
+  min-height: calc(100vh - 100px);
+}
+body {
+  background-color: #fcf7ef;
+}
+
+.review-rating {
+  color: #d75d39;
+}
+.order-rating {
+  color: #d75d39;
+}
+.client-rating {
+  color: #d75d39;
+  font-size: 1.3em;
+}
+.category-rating {
+  color: #f7ce45;
+}
+
+.check-font {
+  font-size: 3.5em;
+}
+
+.dropdown-content li:hover {
+  background-color: #ddd;
+}
+
+.dropdown-hover:hover .dropdown-menu-1 {
+  display: block;
+}
+.dropbtn {
+  border-radius: 0;
+}
+.dropdown:hover .dropbtn {
+  background-color: #385f59;
+  border-radius: 0;
+  color: white;
+}
+.dropdown {
+  stroke: #385f59;
+}
+.dropdown:hover {
+  stroke: #ffffff;
+}

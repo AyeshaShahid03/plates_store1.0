@@ -1,0 +1,66 @@
+.faq-heading {
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+.accordion-radius {
+  border: 1px solid rgba(56, 95, 89, 0.2);
+  border-radius: 10px 10px 0px 0px;
+}
+.padding-bottom {
+  padding-bottom: 200px;
+}
+.accordButton {
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+}
+.accordian-btn-color {
+  margin-top: 15px;
+}
+
+.accordianBody {
+  padding: 20px 15px;
+}
+.accordianBody {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: #385f59;
+  font-weight: 400;
+  background-color: #e1e2da;
+}
+
+.accordian-btn-color button {
+  background: #e1e2da;
+  border: 1px solid rgba(56, 95, 89, 0.2);
+  border-radius: 10px;
+}
+
+.accordButton:not(.collapsed) {
+  color: #385f59 !important;
+  background-color: #e1e2da;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .faq-heading {
+    font-size: 25px;
+  }
+  .accordButton {
+    font-size: 15px;
+  }
+  .accordianBody {
+    font-size: 12px;
+  }
+  .padding-bottom {
+    padding-bottom: 30px;
+  }
+}

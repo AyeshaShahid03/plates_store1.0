@@ -1,0 +1,138 @@
+.main-heading {
+  background-color: #385f59;
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding: 13px 0px;
+}
+.contact-main-section {
+  padding-top: 1.9em;
+  text-align: center;
+}
+.contact-main-section h1 {
+  font-weight: 800;
+  font-size: 60px;
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+  line-height: 48px;
+}
+.contact-main-section p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+  line-height: 28px;
+  padding-top: 1em;
+}
+.contact-second-section h3 {
+  color: #385f59;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Nunito', sans-serif;
+}
+.contact-second-section p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px !important;
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+}
+.contact-back-img {
+  height: 90vh;
+  background-image: url(../../assets/images/contact-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 1400px) {
+  .contact-back-img {
+    height: 40vh;
+    background-image: url(../../assets/images/contact-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-back-img {
+    height: 40vh;
+    background-image: url(../../assets/images/contact-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-second-section h3 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .contact-second-section p {
+    font-family: 'Open Sans';
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+  }
+}
+.contact-section3-heading {
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+}
+.contact-section3-heading h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 48px;
+}
+.contact-section3-heading h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+.contact-section3-heading p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-section3-heading h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .contact-section3-heading h4 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .contact-section3-heading p {
+    font-family: 'Open Sans';
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .contact-main-section h1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .contact-main-section p {
+    font-family: 'Open Sans';
+
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .main-heading {
+    font-size: 26px;
+  }
+}

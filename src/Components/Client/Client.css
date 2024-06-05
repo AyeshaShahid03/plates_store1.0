@@ -1,0 +1,82 @@
+.client-h-container {
+  padding: 0;
+}
+.client-h-container h1 {
+  color: #282222;
+  font-size: 40px;
+  font-family: Nunito;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.clientCard {
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px #80808057, -1px -3px 7px #ffffff;
+  padding: 0px 10px;
+  margin: 5px;
+  background-color: #e1e2da;
+}
+.clientCard h4 {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.clientCard .client-img {
+  margin-top: 20px;
+}
+
+.clientCard .client-para {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.client-para {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 22px;
+  color: #385f59;
+}
+.client-heading {
+  font-family: 'Nunito', sans-serif;
+  color: #385f59;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: start;
+}
+
+.clientCard .client-head {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 1000px) {
+  .clientCard .client-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .clientCard .client-head {
+    font-size: 18px;
+  }
+  .client-h-container h1 {
+    color: #385f59;
+    text-align: center;
+    font-size: 30px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hidden {
+    display: none;
+  }
+}

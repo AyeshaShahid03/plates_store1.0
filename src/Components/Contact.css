@@ -1,0 +1,250 @@
+.customer-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+  background: #385f59;
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  height: 350px;
+  color: #fcf7ef;
+}
+.customer-card h3 {
+  background-color: #d75d39;
+  padding: 20px;
+  border-radius: 70px;
+  margin-bottom: 40px;
+}
+.customer-card h4 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.customer-card p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 28px;
+}
+
+.secnd-h_container h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 48px;
+  color: #3a3a3a;
+  margin-top: 60px;
+}
+.social-icons-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons-card h3 {
+  margin: 20px 20px;
+}
+
+.social-icons-card h4 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  color: black;
+}
+
+.social-icons-card p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: black;
+}
+
+.form-h-p-container h1 {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 80px;
+  line-height: 48px;
+  color: #3a3a3a;
+}
+.form-h-p-container p {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+  line-height: 28px;
+}
+.f-l-name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-l-name-container input {
+  width: 49%;
+  padding: 15px 25px;
+  color: #5e5e5e;
+  background: #fcf7ef;
+  border: 1px solid rgba(56, 95, 89, 0.35);
+  border-radius: 10px;
+}
+.f-l-name-container input:focus {
+  box-shadow: none;
+}
+.email-container {
+  margin: 20px 0px;
+}
+
+.email-container input {
+  padding: 15px 25px;
+  background: #fcf7ef;
+  border: 1px solid rgba(56, 95, 89, 0.35);
+  border-radius: 10px;
+}
+.email-container input:focus {
+  box-shadow: none;
+}
+
+.phone-container {
+  margin: 20px 0px;
+}
+
+.phone-container input {
+  padding: 15px 25px;
+  background: #fcf7ef;
+  border: 1px solid rgba(56, 95, 89, 0.35);
+  border-radius: 10px;
+  color: #5e5e5e;
+}
+.phone-container input:focus {
+  box-shadow: none;
+}
+.textarera {
+  background: #fcf7ef;
+  border: 1px solid rgba(56, 95, 89, 0.35);
+  border-radius: 10px;
+  color: #5e5e5e;
+}
+.textarera:focus {
+  box-shadow: none;
+}
+
+.form-btn-container {
+  display: flex;
+  margin-top: 50px;
+}
+.form-btn-container button {
+  background-color: #d75d39;
+  color: #fcf7ef;
+  background: #d75d39;
+  border-radius: 20120px;
+  border: none;
+  padding: 8px 60px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 767px) {
+  .customer-card {
+    margin: 20px 0px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .customer-card1 h3 {
+    background-color: #d75d39;
+    padding: 36px;
+    border-radius: 70px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .customer-card1 h3 {
+    margin-bottom: 20px;
+    margin-left: 14px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .customer-card h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  .customer-card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .secnd-h_container h1 {
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+  .social-icons-card h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .social-icons-card p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .form-h-p-container h1 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-top: 40px;
+  }
+  .form-h-p-container p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .form-btn-container button {
+    background-color: #d75d39;
+    color: #fcf7ef;
+    background: #d75d39;
+    border-radius: 20120px;
+    border: none;
+    padding: 18px 60px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+  }
+  .customer-card1 {
+    background: #385f59;
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #fcf7ef;
+  }
+  .customer-card1 h4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .customer-card1 p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .form-btn-container {
+    margin: 20px 0px 0px 0px;
+  }
+}
